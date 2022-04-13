@@ -1,0 +1,22 @@
+{
+  "name": "rollup-import-meta-url-repro",
+  "version": "1.0.0",
+  "description": "repro for invalid file url",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup -c && node my%2Fdir/index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdjermanovic/rollup-import-meta-url-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdjermanovic/rollup-import-meta-url-repro/issues"
+  },
+  "homepage": "https://github.com/mdjermanovic/rollup-import-meta-url-repro#readme",
+  "dependencies": {
+    "rollup": "^2.70.1"
+  }
+}
